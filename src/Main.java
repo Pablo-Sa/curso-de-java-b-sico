@@ -1,3 +1,7 @@
+import veterinarios.Medico;
+import animais.domesticos.Cachorro;
+import veterinarios.Pessoa;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -10,7 +14,6 @@ public class Main {
 
       // Calculadora Abaixo não Orientada a Objetos.
       static void iniciarCalculadora(){
-
             try{
                   int primeiroValor;
                   int segundoValor;
